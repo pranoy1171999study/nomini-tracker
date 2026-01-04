@@ -1,0 +1,138 @@
+==================================================
+Nomini Tracker – Expo Mobile App
+==================================================
+
+A mobile application built using Expo and React Native to manage nominee
+and asset-related information securely.
+
+--------------------------------------------------
+1. Tech Stack
+--------------------------------------------------
+- Framework       : Expo (Managed Workflow)
+- UI              : React Native
+- Navigation      : Expo Router
+- Language        : JavaScript / TypeScript
+- Package Manager : npm
+
+--------------------------------------------------
+2. System Requirements
+--------------------------------------------------
+The following tools and versions are REQUIRED to run this project
+successfully.
+
+Node.js
+- Version  : v20.9.0
+
+npm
+- Version  : 10.5.2
+
+Expo CLI
+- Version  : 54.0.20 (via npx)
+
+Expo SDK
+- Version  : 54.0.30
+
+React Native
+- Version  : 0.81.5
+
+Operating System
+- Windows (Tested)
+
+--------------------------------------------------
+3. Important Notes
+--------------------------------------------------
+- Expo CLI is NOT installed globally.
+- The project uses Expo via NPX.
+- Always use `npx expo` instead of `expo`.
+
+--------------------------------------------------
+4. Project Setup
+--------------------------------------------------
+
+Step 1: Clone the repository
+--------------------------------------------------
+git clone <repository-url>
+cd nomini-tracker
+
+Step 2: Install dependencies
+--------------------------------------------------
+npm install
+
+--------------------------------------------------
+5. Running the Application
+--------------------------------------------------
+
+Start the Expo development server:
+--------------------------------------------------
+npx expo start
+
+Once started, you can:
+- Press 'a' to run on Android Emulator
+- Press 'w' to run on Web
+- Scan QR code using Expo Go app on physical device
+
+--------------------------------------------------
+6. Useful Commands
+--------------------------------------------------
+
+Check Node version:
+node -v
+
+Check npm version:
+npm -v
+
+Check Expo version:
+npx expo --version
+
+Check Expo health:
+npx expo doctor
+
+Clear Expo cache:
+npx expo start -c
+
+--------------------------------------------------
+7. Project Dependencies (Core)
+--------------------------------------------------
+- expo@54.0.30
+- react-native@0.81.5
+- expo-router@6.0.21
+- react-native-gesture-handler@2.28.0
+- react-native-reanimated@4.1.6
+- react-native-screens@4.16.0
+- react-native-safe-area-context@5.6.2
+
+--------------------------------------------------
+8. Folder Structure (High Level)
+--------------------------------------------------
+src/
+ ├── app/
+ ├── components/
+ ├── services/
+ ├── utils/
+ └── assets/
+
+--------------------------------------------------
+9. Troubleshooting
+--------------------------------------------------
+
+If you face issues:
+- Ensure Node and npm versions match above
+- Delete node_modules and reinstall:
+  rm -rf node_modules
+  npm install
+
+- Clear Expo cache:
+  npx expo start -c
+
+--------------------------------------------------
+10. Author
+--------------------------------------------------
+Pranoy Patra
+Full Stack Developer
+(Java | .NET | Angular | React Native)
+
+--------------------------------------------------
+11. License
+--------------------------------------------------
+MIT License
+==================================================
